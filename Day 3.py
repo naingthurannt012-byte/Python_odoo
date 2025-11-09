@@ -36,3 +36,4 @@ str_3 = 'Teaching is very diffcult task'
 print('a' in str_3)
 print('v' in str_3)
 print('d' not in str_3)
+print(str_3.upper())
