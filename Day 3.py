@@ -37,3 +37,14 @@ print('a' in str_3)
 print('v' in str_3)
 print('d' not in str_3)
 print(str_3.upper())
+
+myan = int(input('Enter your mark :'))
+eng = int(input('Enter your mark :'))
+math = int(input('Enter your mark :'))
+chem = int(input('Enter your mark :'))
+phy = int(input('Enter your mark :'))
+bio = int(input('Enter yor mark :'))
+subjects =round(((myan+eng+math+chem+phy+bio)/(6*100))*100)
+print(f'The average of six subject marks is {subjects} %')
+
+
